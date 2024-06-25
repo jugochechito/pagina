@@ -1,0 +1,111 @@
+/* Estilos para el fondo del cuerpo */
+body {
+    background: linear-gradient(to bottom right, #3ca89a, #dbdedf);
+    padding-top: 80px; /* Para ajustar el contenido debajo de la barra de navegación */
+}
+
+/* Estilos para el carrusel */
+.carousel-item img {
+    height: 400px; /* Ajustar altura de las imágenes del carrusel */
+}
+
+/* Estilos para las secciones */
+.section {
+    background: linear-gradient(to bottom right, #ffffff, #9cb8c4);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+.section-title {
+    color: #2c3e50;
+    margin-bottom: 30px;
+}
+
+/* Estilos para las tarjetas */
+.card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(121, 8, 8, 0.1);
+    height: 400px; /* Tamaño fijo de la tarjeta */
+    overflow: hidden; /* Ocultar el exceso de contenido */
+    display: flex; /* Usar flexbox para manejar el contenido */
+    flex-direction: column; /* Alinear el contenido en columna */
+    margin-bottom: 20px; /* Espacio inferior entre las tarjetas */
+}
+
+.card-body {
+    padding: 20px;
+    overflow-y: auto; /* Agregar barra de desplazamiento vertical si es necesario */
+    flex: 1 1 auto; /* Ajustar el cuerpo de la tarjeta para que crezca según el contenido */
+}
+
+.card-footer {
+    background-color: #8b2828;
+    padding: 10px;
+    border-top: 1px solid #811414;
+}
+
+.card-footer a {
+    color: #abc6d8;
+}
+
+/* Ajustar el tamaño del título y el texto dentro de las tarjetas */
+.card-title {
+    font-weight: bold;
+    color: #2c3e50;
+    margin-bottom: 10px; /* Espacio entre el título y el texto */
+    overflow: hidden; /* Ocultar el exceso de texto */
+    text-overflow: ellipsis; /* Agregar puntos suspensivos al final si el texto es demasiado largo */
+    white-space: nowrap; /* Evitar saltos de línea */
+}
+
+.card-text {
+    color: #2c3e50;
+    overflow: hidden; /* Ocultar el exceso de texto */
+    text-overflow: ellipsis; /* Agregar
+        -webkit-line-clamp: 3; /* Mostrar solo 3 líneas de texto */
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        white-space: normal; /* Permitir saltos de línea si el texto es largo */
+    }
+    
+    .card-text::-webkit-scrollbar {
+        width: 5px; /* Ancho de la barra de desplazamiento */
+        background-color: transparent; /* Color de fondo transparente */
+    }
+    
+    .card-text::-webkit-scrollbar-thumb {
+        background-color: rgba(0, 0, 0, 0.2); /* Color del pulgar de la barra de desplazamiento */
+        border-radius: 10px; /* Borde redondeado del pulgar */
+    }
+    
+    /* Estilos para la barra de navegación */
+    .navbar {
+        background-color: #ffffff; /* Cambiar color de fondo de la barra */
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    
+    .navbar-brand {
+        font-weight: bold;
+        color: #2c3e50;
+    }
+    
+    .nav-link {
+        color: #2c3e50;
+    }
+    
+    .nav-link:hover {
+        color: #3ca89a; /* Cambiar color al pasar el mouse */
+    }
+    
+    /* Estilos para los enlaces de los documentos */
+    .list-group-item a {
+        color: #2c3e50;
+        text-decoration: none;
+    }
+    
+    .list-group-item a:hover {
+        color: #3ca89a; /* Cambiar color al pasar el mouse */
+    }
+    

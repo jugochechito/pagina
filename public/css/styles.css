@@ -1,0 +1,148 @@
+/* Estilos generales */
+body {
+    background: linear-gradient(to bottom right, #7721bd, #e0764c);
+    padding-top: 0px;
+}
+
+.carousel-item img {
+    height: 100vh;
+}
+
+.section {
+    background: linear-gradient(to bottom right, #ffffff, #9cb8c4);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+.section-title {
+    color: #2c3e50;
+    margin-bottom: 30px;
+}
+
+.card {
+    padding: 20px;
+    width: 330px;
+    min-height: 370px;
+    border-radius: 20px;
+    background: #e8e8e8;
+    box-shadow: 5px 5px 6px #dadada, -5px -5px 6px #f6f6f6;
+    transition: transform 0.4s;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card-title {
+    font-size: 18px;
+    font-weight: 600;
+    color: #2e54a7;
+    margin: 15px 0 0 10px;
+}
+
+.card-image {
+    min-height: 170px;
+    background-color: #c9c9c9;
+    border-radius: 15px;
+    box-shadow: inset 8px 8px 10px #c3c3c3, inset -8px -8px 10px #cfcfcf;
+    overflow: hidden;
+}
+
+.card-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.card-body {
+    margin: 13px 0 0 10px;
+    color: #1f1f1f;
+    font-size: 15px;
+    overflow: hidden;
+}
+
+
+/* Estilos para el botón "Ver más" */
+.btn-primary {
+    background-color: #2e54a7;
+    border-color: #2e54a7;
+    color: #ffffff;
+    transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #1c3d74;
+    border-color: #1c3d74;
+}
+
+/* Estilos para la barra de navegación */
+.navbar {
+    background: linear-gradient(to right, #3d3aff, #FF6A30, #FF920D);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.nav-link {
+    color: #ffffff;
+}
+
+.nav-link:hover {
+    color: #3ca89a;
+}
+
+/* Estilos para los enlaces de los documentos */
+.list-group-item a {
+    color: #2c3e50;
+    text-decoration: none;
+}
+
+.list-group-item a:hover {
+    color: #3ca89a;
+}
+
+/* Footer estilos*/
+
+/* Estilo para el fondo degradado */
+footer {
+    background: linear-gradient(to right, #FF3A5A, #FF6A30, #FF920D);
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .footer-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .footer-redes-sociales {
+    display: flex;
+  }
+  
+  .footer-redes-sociales a {
+    margin-left: 10px;
+  }
+  
+  .footer-redes-sociales i {
+    font-size: 20px;
+    color: #fff;
+  }
+  
+  /* Personaliza los estilos según tus preferencias */
+  
