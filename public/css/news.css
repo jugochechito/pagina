@@ -1,0 +1,112 @@
+/* Estilos generales */
+body {
+    font-family: 'Georgia', serif;
+    background-color: #f8f9fa;
+    color: #343a40;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para el contenedor principal */
+.container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para el encabezado de noticias */
+.news-header h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.news-header h2 {
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: #6c757d;
+}
+
+/* Estilos para la imagen de noticias */
+.news-image img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+/* Estilos para el contenido de noticias */
+.news-content p {
+    font-size: 1.2rem;
+    text-align: justify;
+    margin-bottom: 1rem;
+}
+
+/* Estilos para citas en el texto */
+.news-content blockquote {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #555;
+    margin: 20px 0;
+    padding: 10px 20px;
+    border-left: 5px solid #ff6a30;
+    background-color: #f9f9f9;
+}
+
+/* Estilos para el footer */
+.footer {
+    background: linear-gradient(to right, #FF3A5A, #FF6A30, #FF920D);
+    color: white;
+    padding: 20px 0;
+}
+
+.footer h5 {
+    margin-bottom: 10px;
+}
+
+.footer p, .footer a {
+    color: white;
+    margin-bottom: 5px;
+}
+
+.footer a {
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.footer-logo {
+    max-width: 100px;
+    margin: 0 auto;
+}
+
+.social-icons a {
+    font-size: 1.5rem;
+    margin-left: 10px;
+}
+
+.social-icons a:hover {
+    color: #ddd;
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+    .news-header h1 {
+        font-size: 2rem;
+    }
+
+    .news-header h2 {
+        font-size: 1.25rem;
+    }
+
+    .footer .row {
+        text-align: center;
+    }
+
+    .footer .social-icons {
+        margin-top: 15px;
+    }
+}
